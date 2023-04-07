@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import ProductCards from '../components/ProductCards'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
     const [sortdropdown, setSortDropdown] =  useState(false)
@@ -63,10 +64,8 @@ const HomePage = () => {
 </div>
    </div>
    </div>
+   <Footer/>
    </div>
-   
-
-   
    </>
   )
 }

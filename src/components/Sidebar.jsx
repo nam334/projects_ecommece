@@ -1,8 +1,16 @@
 import React from 'react'
-
+import FilterByCategories from './FilterByCategories'
+import FilterBySize from './FilterBySize'
+import FilterByColour from './FilterByColour'
+import FilterByProductStatus from './FilterByProductStatus'
 const Sidebar = () => {
   return (
-    <div className='bg-gray-200 h-full'>Sidebar</div>
+    <div className=' h-full'>
+        <FilterByCategories/>
+        <FilterByColour/>
+        <FilterBySize/>
+        <FilterByProductStatus/>
+    </div>
   )
 }
 
