@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         
         <nav className="bg-[#ffffff]">
-  <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 border-b-2 border-gray-100">
     <div className="relative flex h-16 items-center justify-between">
       {/* <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
       
@@ -28,7 +28,7 @@ const Navbar = () => {
         </button>
       </div> */}
       <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-start">
-        <div className="flex flex-shrink-0 items-center">
+        <div className="flex flex-shrink-0 items-center ">
           <img className="" src={logo} alt="Logo"/>
          
         </div>

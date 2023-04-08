@@ -22,11 +22,12 @@ const Footer = () => {
     <p className='text-white text-xs py-4'>We are available 8:00am – 7:00pm</p>
     <form className='flex py-4'>
         <img src={btn1} alt="app store"/>
+
         <img src={btn2} alt='google play button'/>
     </form>
     <p className='text-[#294850] text-xs font-medium'>Shopping App: Try our View in Your Room feature, manage registries and save payment info.</p>
   </div>
-  <div class="...">Need help</div>
+ 
  
 </div>
     </div>
