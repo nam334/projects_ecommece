@@ -17,7 +17,7 @@ const ProductCards = () => {
         <span className=' text-white text-[13px]'>3.2 </span>
         <AiFillStar fill='#ffffff'/> 
     </div>
-    <span className='text-gray-400'>(1,592)</span>
+    <span className='text-gray-400'>(1,592)</span> 
    </div>
    <div className='flex text-sm items-center gap-2'>
    <span className='text-gray-400 flex items-center'><BiRupee/> <span>1,592</span></span>

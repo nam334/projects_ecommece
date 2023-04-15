@@ -10,7 +10,7 @@ const HomePageProductFeatures = ({imgsrc,numOfProducts, productLists, title, sub
       <p className='text-xs font-normal text-gray-700 w-[313px] leading-6'>{subtitle}</p>
       <ul className='mt-5'>
       { productLists?.map((product) => <li className='text-sm leading-5 font-normal my-4'>{product}</li>)}
-      </ul>
+      </ul> 
       
     </div> 
      </div>

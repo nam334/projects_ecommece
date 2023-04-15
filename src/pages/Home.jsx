@@ -88,11 +88,11 @@ const Home = () => {
    <ProductCard imgsrc={p3} title="Basic Colored Sweatpants With Elastic Hems" rating="3.7" 
    numOfReviews="1,592" discountedPrice="19.90" totalPrice="25.90" discount="24" />
   </div>
-</div>
+</div> 
 <div>
 <ProductCard imgsrc={p1} title="Basic High-Neck Puff Jacket" rating="3.7" 
    numOfReviews="1,592" discountedPrice="19.90" totalPrice="25.90" discount="24" />
-</div>
+</div> 
 <div> 
 <ProductCard imgsrc={p2} title="Basic Relax Fit Leggings" rating="3.7" 
    numOfReviews="1,592" discountedPrice="19.90" totalPrice="25.90" discount="24" />
