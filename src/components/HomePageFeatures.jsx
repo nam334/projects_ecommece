@@ -9,7 +9,7 @@ const HomePageFeatures = ({title,imgsrc, subtitle}) => {
         <p className='text-[13px] font-medium leading-5'>{title}</p>
         <p className='text-[#75767C] text-xs font-light my-1'>{subtitle}</p>
     </div>
-    </div>
+    </div> 
     </>
   )
 }
